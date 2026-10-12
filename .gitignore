@@ -1,0 +1,86 @@
+# Personal OpenAI/ChatGPT exports. Never commit private conversations or media.
+# Ignore every root-level JSON by default: official exports can add new manifests.
+/*.json
+conversations.json
+conversations-[0-9]*.json
+library_files.json
+library-files.json
+conversation_asset_file_names.json
+export_manifest.json
+ads.json
+codex.json
+chat.html
+file_*.dat
+file-*.dat
+file_*
+file-*
+# Additional raw export media saved under original filenames (repository root only).
+/*.dat
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.avif
+/*.svg
+/*.pdf
+/*.docx
+/*.xlsx
+/*.pptx
+/*.mp3
+/*.mp4
+/*.wav
+/*.webm
+/*.csv
+
+# Generated local archive and manually restored data.
+ChatGPT_Local_Archive/
+ChatGPT_Generated_Files/
+Recovered_From_Browser/
+recovered_files.json
+chat_metadata_index.json
+chat_exports/
+generated_files_report.csv
+library_integrity_report.csv
+conversations_index.csv
+missing_generated_files.csv
+unplaced_library_files.csv
+message_file_bindings.csv
+image_paths_missing.csv
+image_paths_summary.txt
+build_log.txt
+patch_backups/
+*.before_recovery.html
+*.before_v7316.html
+*.before_calendar_stats.html
+
+# Local configuration and credentials. No .env is required by this release.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Caches, logs, and developer output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.tmp
+*.bak
+
+# Keep placeholder/example code and bundled third-party source in version control.
+!ChatGPT_Binding_Overrides.example.json

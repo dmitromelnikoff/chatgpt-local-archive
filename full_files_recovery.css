@@ -1,0 +1,16 @@
+/* Only ADD controls to the pre-existing complete generated_files.html. */
+#file-recovery-toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:16px 0 10px}
+#file-recovery-toolbar input{width:auto;min-width:210px;flex:1;margin:0}
+#file-recovery-toolbar select,#file-recovery-toolbar button{background:#fff;border:1px solid #bbb;border-radius:8px;padding:10px;font:inherit}
+#file-recovery-stats{padding:9px 12px;background:#f0f6f4;border-radius:7px;margin:15px 0;color:#286452}
+.recover-error{color:#b33030!important}
+.recovery-upload-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:9px}
+.recovery-upload-bar button{background:#0a8065;color:#fff;font:inherit;border:1px solid #0a8065;padding:8px 12px;border-radius:7px;cursor:pointer}
+.recovery-upload-bar button:disabled{opacity:.55;cursor:not-allowed}
+.recovery-upload-bar progress{width:120px}
+.recover-size{color:#666}
+.recovery-local-link{display:inline-block;margin-top:6px}
+#file-recovery-extra{margin-top:18px;padding:10px;border:1px solid #ddd;border-radius:8px}
+#file-recovery-extra summary{cursor:pointer;font-weight:650}
+#file-recovery-extra section{margin:7px 0}
+#items > section[hidden]{display:none}
