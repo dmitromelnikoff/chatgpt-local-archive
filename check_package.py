@@ -17,7 +17,7 @@ FILES=('build_from_export.py','01_BUILD_ARCHIVE.bat','02_OPEN_ARCHIVE.bat',
        'archive_chat_actions.js','archive_chat_list_meta.js',
        '10_REFRESH_INTERFACE.bat',
        'full_files_recovery.js','full_files_recovery.css',
-       'vendor/mistune/__init__.py','LICENSE_Mistune.txt','LICENSE_MathJax.txt')
+       'vendor/mistune/__init__.py','third_party_licenses/Mistune_BSD-3-Clause.txt','third_party_licenses/MathJax_APACHE-2.0.txt')
 
 def main():
     bad=[]

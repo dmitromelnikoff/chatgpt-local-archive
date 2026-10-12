@@ -2448,7 +2448,7 @@ def main():
     if src_mathjax.exists() and (not (viewer / src_mathjax.name).exists() or
         src_mathjax.stat().st_size != (viewer / src_mathjax.name).stat().st_size):
         shutil.copy2(src_mathjax, viewer / src_mathjax.name)
-    mathjax_license = ROOT / "LICENSE_MathJax.txt"
+    mathjax_license = ROOT / "third_party_licenses" / "MathJax_APACHE-2.0.txt"
     if mathjax_license.exists():
         shutil.copy2(mathjax_license, DEST / "LICENSE_MathJax.txt")
     say("=== ChatGPT Local Archive STABLE v7.3.16.1 -> локальный HTML-архив ===")
